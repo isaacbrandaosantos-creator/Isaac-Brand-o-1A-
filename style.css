@@ -1,23 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 body{
     background-color: rgb(138, 194, 250);
+    margin:0;
+    color: cornsilk;
 }
 
 header{
     background-color: rgb(187, 214, 218);
-    height: 80px;
-    padding-left: 30px;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-top: -30px;
+   padding: 10px; ;
+   border-bottom: 4px solid black;
+   font-size: 25px;
+   text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
 }
 
 header h3{
     font-size: 40px;
-    font-style: oblique;
-    color: aliceblue;
-    text-align: center;
-    display: flex;
+    font-style:font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:0;
 }
-header ul{
-    list-style: none;
+.nav ul{
+    list-style:none;
+    padding: 0;
+    display:flex;
+}
+.nav ul li{
+margin-left: 20px;
+font-size: 20px;
+}
+
+
+
+header ul li a{
+    color: black;
+    text-align: none;
+    transition: color 0.5s;
+}
+
+header ul li a:hover{  
+     color: azure;
+
 }
