@@ -2,11 +2,11 @@ rt url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 body{
     background-color: rgb(138, 194, 250);
     margin:0;
-    color: cornsilk;
+    color: rgb(0, 81, 255);
 }
 
 header{
-    background-color: rgb(0, 219, 253);
+    background-color: rgb(164, 241, 253);
    padding: 10px; ;
    border-bottom: 4px solid black;
    font-size: 25px;
