@@ -1,33 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
-body{
-    background-color: rgb(138, 194, 250);
-    margin:0;
-    color: cornsilk;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&display=swap&#39;);
+body {
+background-color: cyan;
+margin: 0;
+color:black;
+
 }
 
+
 header{
-    background-color: rgb(187, 214, 218);
-   padding: 10px; ;
-   border-bottom: 4px solid black;
-   font-size: 25px;
-   text-decoration: none;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
+background-color: whitesmoke;
+pedding: 10px;
+border-bottom: 4px solid black;
+font-size: 25px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
 }
 
 header h3{
-    font-size: 40px;
-    font-style:font-family: "BBH Sans Bartle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  margin:0;
+font-size: 40px;
+color: rgb(47, 142, 155);
+font-family: "Playwrite DE Grund Guides", cursive;
+font-weight: 400;
+font-style: normal;
+margin: 0;
+
 }
 .nav ul{
-    list-style:none;
-    padding: 0;
-    display:flex;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+
 }
 .nav ul li{
 margin-left: 20px;
@@ -35,14 +41,13 @@ font-size: 20px;
 }
 
 
-
 header ul li a{
-    color: black;
-    text-align: none;
-    transition: color 0.5s;
+color: black;
+text-decoration: none;
+transition: color 0.5;
 }
 
-header ul li a:hover{  
-     color: azure;
+header ul li a:hover{
+color: blue;
 
 }
